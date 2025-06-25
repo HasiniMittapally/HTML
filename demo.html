@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>first session</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+             body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: white;
+        background-color: yellow;
+    }
+    @media screen and(min-width: 300px){
+        body{
+            background-color: lightblue;
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+            .box{
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                position: relative;
+                animation-name: moveAndColor;
+            }
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: 
+                red;
+                animation:myAnimation 10s infinite alternate;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes moveAndColor{
+                0%{
+                    left: 0px;
+                    background-color: brown;
+                }
+                50%{
+                    left: 100px;
+                    background-color: blue;
+                    border-radius: 100%;
+                }
+                100%{
+                    left: 200px;
+                    background-color: pink;
+                    /*change the box shape*/
+                }
+            }
+
+            @keyframes myAnimation{
+                0%{
+                    left:0px;
+                    background-color: red;
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+                50%{
+                    left: 50px;
+                    background-color: gold;
+                    opacity:0.5 ;
+                    transform:translateX(100px);
+                    transform: translateY(100px);
+                    transform: rotate(45edg);
+                }
+                100%{
+                    left: 100px;
+                    background-color: pink;
+                    transform:translateX(200px);
+                    transform: translateY(200PX);
+                }
+            }
+            div{
+
+            }
+            .numpad{
+                display:grid;
+                grid-template-columns:
+                 auto auto auto  ;
+                align-items: 
+                center;
+                background-color: 
+                black;
+                color: white;
+                gap: 50px;
+                justify-content: 
+                center;
+            }
+            .flex1{
+                display: flex1;
+                border: solid;
+                border-color: 
+                blueviolet;
+                border-radius: 5px;
+                height: 55px;
+                width: 55px;
+                background-color: 
+                white;
+                align-items: center;
+                text-align: center;
+                justify-content: 
+                space-around;
+            }
+            .flex > .flex1{
+                background-color:
+                palevioletred;
+            }
+            .flex > .f{
+                background-color:
+                 brown;
+                 border-radius: 5px;
+                 height: 55px;
+                 width: 55px;
+                 border: solid;
+            }
+            div{
+                background-color:yellow;
+                font-family:'Times New Roman', Times, serif;
+            }
+            tbody{
+                background-color:blueviolet;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="numpad">
+            <div class="numpad">1</div>
+            <div class="numpad">2</div>
+            <div class="numpad">3</div>
+            <div class="numpad">4</div>
+            <div class="numpad">5</div>
+            <div class="numpad">6</div>
+            <div class="numpad">7</div>
+            <div class="numpad">8</div>
+            <div class="numpad">9</div>
+            <div class="numpad">0</div>
+            <div class="numpad">*</div>
+            <div class="numpad">#</div>
+            <div class="numpad">+</div>
+            <div class="numpad">-</div>
+            <div class="numpad">/</div>
+            <div class="numpad">=</div>
+            <div class="numpad">C</div>
+            <div class="numpad">AC</div>
+        </div>
+        <div class="flex">
+            <div class="f">1</div>
+            <div class="f">2</div>
+            <div class="flex1">3</div>
+            <div class="flex1">4</div>
+            </div>
+        <h1>AIML</h1>
+    </br>
+        <p>this is the paragraph</p>
+        <h1 style="color: red;font-family:'Times New Roman', Times, serif">this is the h1 tag</h1>
+        <h2 style="color: blue;font-family:'Times New Roman', Times, serif">this is the h2 tag</h2>
+        <h3 style="color: orange;font-family:'Times New Roman', Times, serif">this is the h3 tag</h3>
+        <h4 style="color:blueviolet;font-family: 'Times New Roman', Times, serif">this is the h4 tag</h4>
+        <h5 style="color:lawngreen;font-family: 'Times New Roman', Times, serif">this is the h5 tag</h5>
+        
+        <form action="submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name"></br>
+            n<label for="password">password</label>
+            <input type="password"></br>
+            <label for="email">email</label>
+            <input type="text"></br>
+            phone <input type="text"></br>
+            <button type="submit">submit</button></br>
+        </form>
+        <a href="https://www.google.com">google</a>
+    </br>
+        <img src="virat.png">
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ul>
+        <ol>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ol>
+        <dd>
+            <dt>A</dt>
+            <dd>A related data</dd>
+            <dt>B</dt>
+            <dd>B related data</dd>
+            <dt>C</dt>
+            <dd>C related data</dd>
+        </dd>
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+    <div>
+        <abbr title=""world health organization">WHO</abbr>
+    </br>
+    <pre> the text belongs to pre tag</pre>
+    <p>the time is <time>5:00</time></p>
+    <table>
+        <caption>students</caption>
+        <thead>
+            <tr>
+                <td>roll_no</td>
+                <td>student_name</td>
+                <td>section</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>abc</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>dcd</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>bcb</td>
+                <td>c</td>
+            </tr>
+        </tbody>
+    </table> 
+    <address>hyderabad,telangana</address></body></br>
+        <I>THE TEXT IS IN ITALIC</I>
+        <kbd>ctrl + c</kbd>
+        </div>
+<hr>
+        <q>this is the text inside the single q</q>
+        <p>this is the first session of html</p>
+    </body>
+</html>
